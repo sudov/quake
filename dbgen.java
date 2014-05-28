@@ -8,7 +8,7 @@ public static void main(String[] args){
 	BufferedWriter writer = new BufferedWriter(new FileWriter(outputfilepath));
 
 	while(reader.read()){
-		System
+		System.out.println("wtf")
 	}
 	Gson gson = new Gson();
 	gson.toJson(myList, myFileOutputStreamWriter);
